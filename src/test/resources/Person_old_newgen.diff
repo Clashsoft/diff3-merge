@@ -1,0 +1,10 @@
+6a7,8
+> 	@Generated
+> 	private int    age;
+18a21,26
+> 
+> 	@Generated
+> 	public int getAge()
+> 	{
+> 		return this.age;
+> 	}

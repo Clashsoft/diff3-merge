@@ -1,0 +1,43 @@
+====3
+1:6a
+2:6a
+3:7,8c
+  	@Generated
+  	private int    age;
+====1
+1:7a
+2:8c
+3:10c
+  	@Generated
+====1
+1:10c
+  		return this.firstName == null ? "" : this.firstName;
+2:11c
+3:13c
+  		return this.firstName;
+====1
+1:12a
+2:14c
+3:16c
+  	@Generated
+====1
+1:15c
+  		return this.lastName + " Jr";
+2:17c
+3:19c
+  		return this.lastName;
+====
+1:17,21c
+
+  	public String getFullName()
+  	{
+  		return firstName + " " + lastName;
+  	}
+2:18a
+3:21,26c
+
+  	@Generated
+  	public int getAge()
+  	{
+  		return this.age;
+  	}

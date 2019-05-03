@@ -1,0 +1,18 @@
+8d7
+< 	@Generated
+11c10
+< 		return this.firstName;
+---
+> 		return this.firstName == null ? "" : this.firstName;
+14d12
+< 	@Generated
+17c15
+< 		return this.lastName;
+---
+> 		return this.lastName + " Jr";
+18a17,21
+> 
+> 	public String getFullName()
+> 	{
+> 		return firstName + " " + lastName;
+> 	}
