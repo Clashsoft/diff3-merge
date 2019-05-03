@@ -1,0 +1,12 @@
+15,20c
+		return this.lastName;
+.
+12a
+	@Generated
+.
+10c
+		return this.firstName;
+.
+7a
+	@Generated
+.

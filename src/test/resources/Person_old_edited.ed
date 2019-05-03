@@ -1,0 +1,13 @@
+17c
+		return this.lastName + " Jr";
+	}
+
+	public String getFullName()
+	{
+		return firstName + " " + lastName;
+.
+14d
+11c
+		return this.firstName == null ? "" : this.firstName;
+.
+8d

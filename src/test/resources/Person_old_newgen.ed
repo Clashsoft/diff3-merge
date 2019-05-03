@@ -1,0 +1,12 @@
+18a
+
+	@Generated
+	public int getAge()
+	{
+		return this.age;
+	}
+.
+6a
+	@Generated
+	private int    age;
+.
